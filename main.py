@@ -1,3 +1,8 @@
+"""
+author: Jarmila Kroulová
+email: jarmilxxx@seznam.cz
+""" 
+
 import random
 from zakladni_data import cara, domov, nazev, pravidla, moznosti, moznosti_polohy, volba_polohy
 
@@ -52,4 +57,5 @@ def hlavni_hra():
     zpracovani_vstupu(poloha, pocet_pokusu)
 
 if __name__ == "__main__":
+
     hlavni_hra()
